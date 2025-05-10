@@ -1,1 +1,7 @@
-pydantic-settings-2.9.1 python-dotenv-1.1.0 fastapi-0.115.12
+# 핵심 백엔드 프레임워크
+fastapi==0.115.12
+uvicorn[standard]
+
+# 설정 및 환경변수 관리
+pydantic-settings==2.9.1
+python-dotenv==1.1.0
