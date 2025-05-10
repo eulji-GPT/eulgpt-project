@@ -4,8 +4,6 @@ uvicorn[standard]
 
 # 설정 및 환경변수 관리
 pydantic-settings==2.9.1
-python-dotenv==1.1.0
-
 langchain==0.3.1
 langgraph==0.2.34
 langchain-openai==0.2.1
