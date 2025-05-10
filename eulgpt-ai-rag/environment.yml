@@ -1,0 +1,17 @@
+name: ai-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - langchain
+      - openai
+      - chromadb
+      - faiss-cpu
+      - pandas
+      - numpy
+      - scikit-learn
+      - python-dotenv
+      - jupyter

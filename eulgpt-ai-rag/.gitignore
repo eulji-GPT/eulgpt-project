@@ -1,0 +1,58 @@
+# ▶️ Python 관련
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ▶️ Jupyter Notebook 체크포인트
+.ipynb_checkpoints/
+
+# ▶️ 가상환경
+.venv/
+env/
+*.egg-info/
+*.egg
+
+# ▶️ Conda 환경
+*.conda
+*.env
+env.yml
+.env
+
+# ▶️ VSCode 설정
+.vscode/
+
+# ▶️ OS 별 캐시
+.DS_Store
+Thumbs.db
+
+# ▶️ 모델 및 캐시 디렉토리
+.cache/
+logs/
+runs/
+wandb/
+checkpoints/
+models/
+
+# ▶️ 데이터/벡터 저장소
+vector_store/
+*.db
+*.sqlite
+
+# ▶️ 환경 파일
+.env
+.env.*
+
+# ▶️ 출력 결과
+*.log
+*.out
+*.tmp
+
+# ▶️ 테스트 커버리지
+htmlcov/
+coverage.xml
+.cache/
+.pytest_cache/
+
+# ▶️ 기타
+*.bak
